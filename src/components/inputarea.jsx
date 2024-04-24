@@ -22,13 +22,6 @@ function InputArea(props){
             <input onChange={handleList} value={item} type="text" />
             <button onClick={() => {
                 item === '' ? setEmptyItem(true) : setItems();
-
-                // if(item === ''){
-                //     setEmptyItem(true);
-                // } else {
-                //     setEmptyItem(false);
-                //     props.addItem(item);
-                // }
                 setItem('');
             }}>
                 <span>Add</span>
