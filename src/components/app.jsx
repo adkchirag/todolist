@@ -5,10 +5,10 @@ import TodoItem from './todoitem';
 function App(){
 
     const [list, setList] = useState([]);
-
+    
     function newItem(item){
         setList((prevItems) => {
-            return [...prevItems, item,]
+            return [...prevItems, item];
         }); 
     }
 
